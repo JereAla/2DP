@@ -2,7 +2,7 @@
 
 physics engine course project
 
-###Code guidelines: ###
+### Code guidelines: ###
 
 - Public variables: someStuff
 - Private variables: _someStuff
