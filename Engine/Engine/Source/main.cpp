@@ -1,6 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include <Windows.h>
-#include "Cube.h"
+#include <Cube.h>
 int main()
 {
 	Cube test(sf::Vector2f(50, 25), sf::Vector2f(10, 10), sf::Color::Blue);

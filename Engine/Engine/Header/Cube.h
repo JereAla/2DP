@@ -15,6 +15,7 @@ public:
 	void Draw();
 
 	sf::RectangleShape shape;
+	sf::Vector2f Center;
 };
 #endif
 
