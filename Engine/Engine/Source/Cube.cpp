@@ -1,6 +1,6 @@
 #include "Cube.h"
 
-Cube::Cube(sf::Vector2f size, sf::Vector2f position, sf::Color color)
+Cube::Cube(sf::Vector2f size, sf::Vector2f position, sf::Color color) : Object(position)
 {
 	shape.setSize(sf::Vector2f(size.x, size.y));
 	Center.x = size.x / 2;
