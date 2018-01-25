@@ -118,11 +118,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Source\Circle.cpp" />
     <ClCompile Include="Source\Object.cpp" />
     <ClCompile Include="Source\Cube.cpp" />
     <ClCompile Include="Source\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Header\Circle.h" />
     <ClInclude Include="Header\AABB.h" />
     <ClInclude Include="Header\Cube.h" />
     <ClInclude Include="Header\Object.h" />
