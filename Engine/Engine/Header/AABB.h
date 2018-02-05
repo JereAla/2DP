@@ -29,7 +29,7 @@ float Distance(Object a, Object b)
 	float dx = a.getPosition().x < b.getPosition().x ? a.getPosition().x : b.getPosition().x;
 	float dy = a.getPosition().y < b.getPosition().y ? a.getPosition().y : b.getPosition().y;
 
-	//TODO
+	return dx + dy;
 }
 
 //used for circle vs circle collision check

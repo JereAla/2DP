@@ -18,7 +18,16 @@ void Cube::Move(sf::Vector2f newPosition)
 	shape.setPosition(sf::Vector2f(newPosition.x - Center.x, newPosition.y - Center.y));
 }
 
-void Cube::Draw()
+void Cube::Update(float deltaTime)
 {
-	
+	setVelocity(getVelocity() + (getAcceleration() * deltaTime));
+	setPosition(getPosition() + (getVelocity()*deltaTime));
+	shape.setPosition(sf::Vector2f(getPosition().x - Center.x, getPosition().y - Center.y));
+	shape.setRotation(shape.getRotation() + (getAngVelocity() * deltaTime));
+}
+
+void Cube::Draw(sf::RenderWindow &window)
+{
+	window.draw(shape);
+	//change this to object class??
 }

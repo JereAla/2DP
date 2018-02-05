@@ -128,6 +128,7 @@
     <ClInclude Include="Header\AABB.h" />
     <ClInclude Include="Header\Cube.h" />
     <ClInclude Include="Header\Object.h" />
+    <ClInclude Include="Header\SAT.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

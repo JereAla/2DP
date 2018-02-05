@@ -11,8 +11,8 @@ public:
 	~Cube();
 
 	void Move(sf::Vector2f);
-
-	void Draw();
+	void Update(float);
+	void Draw(sf::RenderWindow &);
 
 	sf::RectangleShape shape;
 	sf::Vector2f Center;
